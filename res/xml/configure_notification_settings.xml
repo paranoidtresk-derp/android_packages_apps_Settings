@@ -86,6 +86,12 @@
         android:order="15"
         settings:initialExpandedChildrenCount="0">
 
+        <co.aospa.support.preferences.SystemSettingSwitchPreference
+            android:key="notification_headers"
+            android:title="@string/notification_headers_title"
+            android:summary="@string/notification_headers_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="show_snooze_options"
             android:title="@string/snooze_options_title"
