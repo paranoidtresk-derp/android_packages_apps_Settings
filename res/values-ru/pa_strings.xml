@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2019 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Paranoid Android version -->
+    <string name="pa_version">Версия Paranoid Android</string>
+
+    <string name="reset_all_settings">СБРОСИТЬ ВСЁ</string>
+    <string name="reset_selected_settings">СБРОСИТЬ ВЫДЕЛЕННОЕ</string>
+    <string name="reset_settings_title">Настройки функций</string>
+    <string name="reset_settings_summary">Сбросить настройки функций Paranoid Android</string>
+    <string name="keywords_settings_reset">сброс</string>
+
+    <!-- Gestures Settings -->
+    <string name="quick_gestures_title">Быстрые жесты</string>
+    <string name="offscreen_gesture_title">Жесты на выключенном экране</string>
+    <string name="offscreen_gesture_summary">Рисуйте паттерны или нажимайте на экран для выполнения действий</string>
+    <string name="keywords_gestures">экран сенсорный экран нарисуйте свайп пальцем</string>
+
+    <string name="gestures_double_tap">Двойное нажатие</string>
+    <string name="gestures_draw_v">Нарисовать V</string>
+    <string name="gestures_draw_inverse_v">Нарисовать V наоборот</string>
+    <string name="gestures_draw_o">Нарисовать O</string>
+    <string name="gestures_draw_m">Нарисовать M</string>
+    <string name="gestures_draw_w">Нарисовать W</string>
+    <string name="gestures_draw_s">Нарисовать S</string>
+    <string name="gestures_draw_arrow_left">Нарисовать &lt;</string>
+    <string name="gestures_draw_arrow_right">Нарисовать &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Жест одним пальцем вверх</string>
+    <string name="gestures_one_finger_swipe_right">Провести одним пальцем вправо</string>
+    <string name="gestures_one_finger_swipe_down">Провести одним пальцем вниз</string>
+    <string name="gestures_one_finger_swipe_left">Провести одним пальцем влево</string>
+    <string name="gestures_two_finger_swipe">Жест двумя пальцами</string>
+
+    <string name="gestures_disabled">Отключено</string>
+    <string name="gestures_wake_device">Пробуждение устройства</string>
+    <string name="gestures_toggle_flashlight">Переключить фонарик</string>
+    <string name="gestures_toggle_airplane_mode">Переключить режим полета</string>
+    <string name="gestures_play_pause_music">Воспроизведение / Пауза музыки</string>
+    <string name="gestures_next_music">Следующий музыкальный трек</string>
+    <string name="gestures_previous_music">Предыдущий музыкальный трек</string>
+    <string name="gestures_open_camera">Открыть камеру</string>
+    <string name="gestures_open_dialer">Открыть телефон</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Проведите для скриншота</string>
+    <string name="swipe_to_screenshot_summary">Проведите 3 пальцами по экрану, чтобы сделать скриншот</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие клавиш громкости переключает музыкальные треки.</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Найдите датчик отпечатков пальцев на <xliff:g id="sensor_location">%1$s</xliff:g> Вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Найдите датчик отпечатков пальцев на <xliff:g id="sensor_location">%1$s</xliff:g> Вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Найдите датчик отпечатков пальцев на <xliff:g id="sensor_location">%1$s</xliff:g> Вашего телефона.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">задней части</string>
+    <string name="security_settings_fingerprint_sensor_location_front">передней части</string>
+    <string name="security_settings_fingerprint_sensor_location_left">левой стороне</string>
+    <string name="security_settings_fingerprint_sensor_location_right">правой стороне</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Сотовые данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование сотовых данных</string>
+    <string name="data_usage_app_restrict_vpn">VPN данные</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi данные</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать панель навигации</string>
+    <string name="navbar_invert_info">Это поменяет местами кнопки \"Назад\" и \"Недавние\" на панели навигации.</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Тактильная отдача при звонках</string>
+    <string name="incall_feeedback_summary">Вибрировать, чтобы указать статус вызова</string>
+
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Отклики &amp; вибрации</string>
+    <string name="summary_vibration_preferences">Изменение интенсивности, паттерна и другое</string>
+    <string name="keywords_vibration_preferences">паттерн вибрации, интенсивность вибрации, звонки, отдача, нажать, сила вибрации</string>
+    <string name="ringtone_vibration_pattern">Паттерн вибрации рингтона</string>
+    <string name="vibration_intensity_ringer">Интенсивность вибрации рингтона</string>
+    <string name="vibration_intensity_notification">Интенсивность вибрации уведомления</string>
+    <string name="vibration_intensity_disabled">Отключено</string>
+    <string name="vibration_intensity_light">Легкая</string>
+    <string name="vibration_intensity_medium">Средняя</string>
+    <string name="vibration_intensity_strong">Сильная</string>
+    <string name="vibration_intensity_custom">Пользовательская</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Обнаружение кармана</string>
+    <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
+
+    <!-- Pulse Ambient Light -->
+    <string name="pulse_ambient_light_title">Пульс</string>
+    <string name="pulse_ambient_light_summary">Подсветка боковых краев экрана при уведомлении</string>
+    <string name="ambient_notification_light_accent_title">Цвет системы</string>
+    <string name="ambient_notification_light_color_automatic_title">Цвет уведомления</string>
+    <string name="pulse_ambient_light_color">При уведомлении использовать</string>
+
+    <!-- Home handle sizing -->
+    <string name="back_options_dialog_title">Опции</string>
+    <string name="home_handle_sizer_title">Размер панели жестов</string>
+    <string name="home_handle_low_label">Маленькая</string>
+    <string name="home_handle_high_label">Большая</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Отладка с корневым доступом</string>
+    <string name="adb_enable_summary_root">Разрешить запуск Android отладки от имени root</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Закрыть</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_timeout_title">Использовать таймаут в</string>
+    <string name="adaptive_playback_timeout_none_summary">Выкл</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Вкл (30 секунд)</string>
+    <string name="adaptive_playback_timeout_1_min">1 минуту</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Вкл (1 минута)</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Вкл (2 минуты)</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Вкл (5 минут)</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
+</resources>
