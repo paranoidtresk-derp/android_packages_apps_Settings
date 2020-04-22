@@ -91,7 +91,7 @@
     <string name="incall_feeedback_summary">Вибрировать, чтобы указать статус вызова</string>
 
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Отклики &amp; вибрации</string>
+    <string name="vibration_preferences">Отклики и вибрации</string>
     <string name="summary_vibration_preferences">Изменение интенсивности, паттерна и другое</string>
     <string name="keywords_vibration_preferences">паттерн вибрации, интенсивность вибрации, звонки, отдача, нажать, сила вибрации</string>
     <string name="ringtone_vibration_pattern">Паттерн вибрации рингтона</string>
@@ -146,4 +146,36 @@
     <string name="adaptive_playback_timeout_5_min_summary">Вкл (5 минут)</string>
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Полностью</string>
+    <string name="back_height_high_label">Низ</string>
+    <string name="back_height_message">Высота экрана, используемая для жеста назад.</string>
+    <string name="back_block_ime_title">Блокировать высоту виртуальной клавиатуры как сенсорную область для жеста назад</string>
+
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Значение</string>
+    <string name="seek_value_edit_label">Установить значение</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Монитор сетевого трафика</string>
+    <string name="network_traffic_state_title">Показывать сетевую активность в статусбаре</string>
+    <string name="network_traffic_autohide_threshold_title">Пороговое значение активности (Кб/с)</string>
+    <string name="network_traffic_dynamic">Динамический индикатор</string>
+    <string name="network_traffic_dynamic_summary">Автоматическое переключение между входящим и исходящим трафиком</string>
+    <string name="network_traffic_type">Выберите тип сетевой активности</string>    
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Объединить громкость звонка и уведомлений</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Частота обновления экрана</string>
+    <string name="refresh_rate_summary_auto">Динамическая / Динамически переключается между 60 Гц и 90 Гц (может восприниматься как мерцание из-за разных значений гаммы)</string>
+    <string name="refresh_rate_summary_60">60 Гц / Частота обновления заблокирована на 60 Гц для всего контента</string>
+    <string name="refresh_rate_summary_90">90 Гц / Частота обновления заблокирована на 90 Гц для всего контента. Увеличено использование батареи</string>
+    <string name="auto_refresh_rate">Динамическая</string>
+
+    <!-- Full screen gestures -->
+    <string name="navbar_gesture_pill_toggle_title">Скрыть плашку панели навигации</string>
 </resources>
