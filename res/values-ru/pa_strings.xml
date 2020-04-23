@@ -31,6 +31,7 @@
     <string name="keywords_gestures">экран сенсорный экран нарисуйте свайп пальцем</string>
 
     <string name="gestures_double_tap">Двойное нажатие</string>
+    <string name="gestures_single_tap">Одиночное нажатие</string>
     <string name="gestures_draw_v">Нарисовать V</string>
     <string name="gestures_draw_inverse_v">Нарисовать V наоборот</string>
     <string name="gestures_draw_o">Нарисовать O</string>
@@ -47,6 +48,7 @@
 
     <string name="gestures_disabled">Отключено</string>
     <string name="gestures_wake_device">Пробуждение устройства</string>
+    <string name="gestures_pulse_ambient_display">Включить активный экран</string>
     <string name="gestures_toggle_flashlight">Переключить фонарик</string>
     <string name="gestures_toggle_airplane_mode">Переключить режим полета</string>
     <string name="gestures_play_pause_music">Воспроизведение / Пауза музыки</string>
