@@ -112,7 +112,6 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     SystemNavigationGestureSettings.setBackGestureOverlaysToUse(getActivity());
                     SystemNavigationGestureSettings.setCurrentSystemNavigationMode(getActivity(),
                             getOverlayManager(), SystemNavigationGestureSettings.getCurrentSystemNavigationMode(getActivity()));
-
                 })
                 .create();
     }
